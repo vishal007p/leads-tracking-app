@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #2857ec;
+  --electric: #12c8ff;
+  --navy: #0b1535;
+  --background: #f3f6fe;
+  --surface: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, system-ui, sans-serif;
+  background: var(--background);
+  color: var(--navy);
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  filter: brightness(1.08);
+}
